@@ -49,7 +49,7 @@ A submission for the KITTI benchmark can be created using
 python scripts/kitti_submission_fusion.py --model=<path-to-checkpoint>.pth
 ```
 
-Our resulting checkpoint can be downloaded [here](https://bwsyncandshare.kit.edu/s/RTZ4H9pCNfcgAM3), which yields an SF-all error of 4.83 on the KITTI benchmark.
+Our resulting checkpoint can be found under [Releases](https://github.com/cv-stuttgart/M-FUSE/releases/tag/v1.0), which yields an SF-all error of 4.83 on the KITTI benchmark.
 
 # Training
 1. Retrain the RAFT-3D model `raft3d_bilaplacian` on the FlyingThings3D dataset for 200K steps with their provided code https://github.com/princeton-vl/RAFT-3D or use their checkpoint.
